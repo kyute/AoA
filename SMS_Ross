@@ -1,0 +1,50 @@
+/*
+
+            「 center of the universe 」
+     
+  TEMPLATE CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+          
+*/
+
+#rcenteroftheuniverse img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+#rcenteroftheuniverse .rmessage {
+  max-width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 0 0 -15px;
+  padding: 9px 13px 7px;
+  background: #9fff9f;
+  border-radius: 10px;
+  text-align: justify;
+  text-transform: lowercase;
+  position: relative;
+}
+
+#rcenteroftheuniverse .rmessage::after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 15px;
+  background-color: inherit;
+  clip-path: polygon(100% 100%, 0 0, 90% 0);
+  position: absolute;
+}
+
+#rcenteroftheuniverse:after {
+  display: block;
+  content: "「R」";
+  font: bold 8px/12px 'Consolas';
+  color: #8e8e8e;
+  text-transform: uppercase;
+  opacity: .5;
+}
+
+#rcenteroftheuniverse:hover::after {
+  content: "「ROSS RESOURCES」";
+}
