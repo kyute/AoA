@@ -1,0 +1,100 @@
+/*
+
+       _ __ ___  ___ ___   _ __ ___  ___  ___  _   _ _ __ ___ ___  ___ 
+      | '__/ _ \/ __/ __| | '__/ _ \/ __|/ _ \| | | | '__/ __/ _ \/ __|
+      | | | (_) \__ \__ \ | | |  __/\__ \ (_) | |_| | | | (_|  __/\__ \
+      |_|  \___/|___/___/ |_|  \___||___/\___/ \__,_|_|  \___\___||___/
+
+
+                      https://rossresources.tumblr.com/
+   
+                    CRIADO POR ROSS, NÃO TIRE OS CRÉDITOS
+
+                                *:･ﾟ✧*:･ﾟ✧
+
+                   CREATED BY ROSS DON'T REMOVE MY CREDITS
+          
+*/
+
+#r2203_ily-but-idk {
+  width: 550px;
+  --accent1: #afe4e4;
+  --accent2: #8abdd6;
+  --background: #fdfdfd;
+  --border: #dfebeb;
+  --title: #000;
+  --text: #000;
+}
+
+#r2203_ily-but-idk .rwrapper {
+  padding: 70px;
+  background: var(--background);
+  border: 30px solid var(--border);
+  position: relative;
+}
+
+#r2203_ily-but-idk .rdec {
+  width: 30px;
+  height: 250px;
+  background: var(--accent1);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#r2203_ily-but-idk .rdec::after {
+  content: "";
+  width: 15px;
+  height: 200px;
+  background: var(--accent2);
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+}
+
+#r2203_ily-but-idk .rtitle {
+  float: right;
+  margin: 0 0 20px;
+  display: inline-block;
+  font: bold 17px/100% 'JetBrains Mono';
+  color: var(--title);
+  letter-spacing: 10px;
+  position: relative;
+}
+
+#r2203_ily-but-idk .rtitle i {
+  font-style: normal;
+  position: relative;
+  z-index: 1;
+}
+
+#r2203_ily-but-idk .rtitle::after {
+  content: "";
+  display: block;
+  width: 80%;
+  height: 12px;
+  background: var(--accent1);
+  position: absolute;
+  top: 55%;
+  right: -15px;
+}
+
+#r2203_ily-but-idk .rtxt {
+  clear: both;
+  font: 12px/150% 'Source Sans Pro';
+  letter-spacing: .5px;
+  color: var(--text);
+  text-align: justify;
+}
+
+#r2203_ily-but-idk:after {
+  display: block;
+  content: "「R」";
+  font: bold 7px/12px 'Arial';
+  text-transform: uppercase;
+  opacity: .3;
+}
+
+#r2203_ily-but-idk:hover::after {
+  content: "「ROSS RESOURCES」";
+}
